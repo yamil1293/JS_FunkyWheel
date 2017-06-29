@@ -13,8 +13,8 @@ function preload() {
 
 function setup() {
     // Creates the canvas, sets a background color and the smooth out the following objects. 
-    createCanvas(800, 800);
-    background(255);
+   // createCanvas(800, 800);
+   // background(255);
     smooth();
 
     // Creates a button to pause/resume the above song and make it toggable.
@@ -28,7 +28,6 @@ function setup() {
     sliderPan = createSlider(-1, 1, 0, 0.01);
     sliderVolume = createSlider(0, 1 , .5, 0.01);
 }
-
 
 function draw() {
     // Use the above sliders to affect the song's features in realtime.

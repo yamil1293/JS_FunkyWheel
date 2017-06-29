@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+#container {
+    width: 800px;
+    height: 800px;
+    background-color: 255px;
+}
+
 canvas {
     vertical-align: top;
 }
